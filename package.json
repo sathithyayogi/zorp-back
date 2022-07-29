@@ -1,0 +1,29 @@
+{
+  "name": "zorp-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/sathithyayogi/zorp-back.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19",
+    "uniqid": "^5.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sathithyayogi/zorp-back/issues"
+  },
+  "homepage": "https://github.com/sathithyayogi/zorp-back#readme"
+}
