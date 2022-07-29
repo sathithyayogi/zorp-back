@@ -21,6 +21,7 @@ exports.getAllTemplate = async (req, res) => {
             .sort(sortObject)
             .limit(pageLimit)
             .skip(pageOffset);
+            
         const templateListCount = await Template
             .find(searchObject)
             .count();
